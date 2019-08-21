@@ -3,6 +3,14 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var mongoose = require('mongoose')
+var bodyParser = require('body-parser')
+mongoose.Promise = global.Promise;
+
+const mongoDB = 'mongodb://127.0.0.1:27017'
+const promise = mongoose.connect(mongoDB, {
+  useMongoClient: true
+});
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
