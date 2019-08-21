@@ -1,0 +1,19 @@
+{
+  "name": "imj_project",
+  "version": "1.0.0",
+  "description": "we are developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeong369/imj_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeong369/imj_project/issues"
+  },
+  "homepage": "https://github.com/jeong369/imj_project#readme"
+}
