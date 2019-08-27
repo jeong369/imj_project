@@ -7,7 +7,7 @@ var mongoose = require('mongoose')
 var bodyParser = require('body-parser')
 mongoose.Promise = global.Promise;
 
-const mongoDB = 'mongodb://127.0.0.1:27017'
+const mongoDB = 'mongodb://172.30.1.44:27017'
 const promise = mongoose.connect(mongoDB, {
   useMongoClient: true
 });
