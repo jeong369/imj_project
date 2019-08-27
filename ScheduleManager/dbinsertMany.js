@@ -1,6 +1,6 @@
 var Client = require('mongodb').MongoClient;
 
-Client.connect('mongodb://localhost:27017/schedule', { useNewUrlParser: true , useUnifiedTopology: true}, function(error, database){
+Client.connect('mongodb://172.30.1.44:27017/schedule', { useNewUrlParser: true , useUnifiedTopology: true}, function(error, database){
     if(error) {
         console.log(error);
     } else {
